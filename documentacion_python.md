@@ -235,5 +235,4 @@ pip install numpy
 Una vez hecho esto ya podriamos utilizarlo.
 
 ---
-```
 
