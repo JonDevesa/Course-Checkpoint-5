@@ -221,7 +221,7 @@ Para poder usarlo hay que instalarlo en nuestro sistema. Para ello, vamos al sig
 
 Es importante guardarlo en un sitio al qeu tengamos facil acceso. Una vez descargado, para instalarlo, unicamente hay que ejecutarlo en la terminal como cualquier archivo python.
 
-Ahora podriamos instalar difeentes paquetes, en el ejemplo siguiente veremos como instalar el paquete Numpy, muy util a la hora de implementar algoritmos de aprendizaje automático (machine learnign algorithms) o cualquier calculo numerico en python.
+Ahora podriamos instalar diferentes paquetes, en el ejemplo siguiente veremos como instalar el paquete Numpy, muy util a la hora de implementar algoritmos de aprendizaje automático (machine learnign algorithms) o cualquier calculo numerico en python.
 
 Para instalar NumPy, usa pip:
 
