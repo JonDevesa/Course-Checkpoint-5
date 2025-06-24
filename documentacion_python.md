@@ -14,7 +14,7 @@ Un **condicional** permite que un programa tome decisiones basadas en las condic
 if condición:
     # Código si la condición es verdadera
 elif otra_condición:
-    # Código si la otra condición es verdadera
+    # Código si otra condición es verdadera
 else:
     # Código si ninguna condición es verdadera
 ```
