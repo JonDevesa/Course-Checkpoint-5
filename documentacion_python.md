@@ -32,7 +32,7 @@ else:
     print("Eres mayor de 25 años")
 ```
 
-### Ejemplo gráfico del condicional
+#### Ejemplo gráfico del condicional
 ![Condicional](imagenes/condicional.PNG)
 
 ---
@@ -50,7 +50,7 @@ for i in numeros:
     print(i)
 ```
 
-### Ejemplo gráfico de bucle for
+#### Ejemplo gráfico de bucle for
 ![Bucle for](imagenes/for.PNG)
 
 
@@ -63,7 +63,7 @@ while x < 5:
     x += 1
 ```
 
-### Ejemplo gráfico de bucle while
+#### Ejemplo gráfico de bucle while
 ![Bucle for](imagenes/while.PNG)
 
 
@@ -71,7 +71,7 @@ while x < 5:
 
 Los bucles permiten automatizar tareas repetitivas. Algunos ejemplos de uso son:
 
-#### 1. Recorrer todos los elementos de una lista:
+### 1. Recorrer todos los elementos de una lista:
 
 ```python
 personajes = ["Verso", "Maelle", "Monoco", "Lune"]
@@ -80,10 +80,10 @@ for personaje in personajes:
     print("Personaje:", personaje)
 ```
 
-### Ejemplo gráfico de recorrer los elementos de una lista
+#### Ejemplo gráfico de recorrer los elementos de una lista
 ![Recorrer elementos de una lista](imagenes/lista.PNG)
 
-#### 2. Buscar valores específicos dentro de datos:
+### 2. Buscar valores específicos dentro de datos:
 
 ```python
 numeros = [3, 4, 33, 67, 100]
@@ -93,10 +93,10 @@ for numero in numeros:
         print("Número encontrado:", numero)
 ```
 
-### Ejemplo gráfico de busqueda de valores especificos
+#### Ejemplo gráfico de busqueda de valores especificos
 ![Busqueda de valores especificos](imagenes/valor_especifico.PNG)
 
-#### 3. Aplicar una operación a muchos datos sin tener que escribirla varias veces:
+### 3. Aplicar una operación a muchos datos sin tener que escribirla varias veces:
 
 ```python
 precios = [33, 67, 100]
@@ -108,10 +108,10 @@ for precio in precios:
 print(precios_con_iva)
 ```
 
-### Ejemplo gráfico de operaciones sin muchos datos
+#### Ejemplo gráfico de operaciones sin muchos datos
 ![Operaciones sin muchos datos](imagenes/operaciones_sencillas.PNG)
 
-#### 4. Simular procesos que ocurren de forma continua o que dependen de una condición externa:
+### 4. Simular procesos que ocurren de forma continua o que dependen de una condición externa:
 
 ```python
 energia = 9
@@ -121,7 +121,7 @@ while energia > 0:
     energia -= 1
 ```
 
-### Ejemplo gráfico de simulación de procesos
+#### Ejemplo gráfico de simulación de procesos
 ![Simular procesos](imagenes/procesos.PNG)
 
 ---
@@ -143,7 +143,7 @@ cuadrados = [x * x for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
 print(cuadrados)
 ```
 
-### Ejemplo gráfico de lista por comprensión
+#### Ejemplo gráfico de lista por comprensión
 ![Lista por comprension](imagenes/lista_comprension.PNG)
 
 Con condición:
@@ -153,7 +153,7 @@ cuadrados = [x * x for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] if x <= 4]
 print(cuadrados)
 ```
 
-### Ejemplo gráfico de lista por comprensión con condicion
+#### Ejemplo gráfico de lista por comprensión con condicion
 ![Lista por comprension con condicion](imagenes/lista_comprension_condicion.PNG)
 
 ---
@@ -171,7 +171,7 @@ def saludar(nombre):
 saludar("Verso")  
 ```
 
-### Ejemplo gráfico de función con argumento
+#### Ejemplo gráfico de función con argumento
 ![Argumento de una función](imagenes/argumento.PNG)
 
 ### Argumentos con valor por defecto:
@@ -184,7 +184,7 @@ saludar()
 saludar("Verso")  
 ```
 
-### Ejemplo gráfico de función con argumento por defecto
+#### Ejemplo gráfico de función con argumento por defecto
 ![Argumento de una función con un argumento por defecto](imagenes/argumento_por_defecto.PNG)
 
 ---
@@ -206,7 +206,7 @@ suma = lambda x, y: x + y
 print(suma(33, 67))
 ```
 
-### Ejemplo gráfico de función lambda
+#### Ejemplo gráfico de función lambda
 ![Función lambda](imagenes/lambda.PNG)
 
 ---
@@ -214,9 +214,9 @@ print(suma(33, 67))
 ## ¿Qué es un paquete pip?
 
 `pip` es el sistema de gestión de paquetes de Python. Permite instalar fácilmente bibliotecas externas que contienen codigo de otros desarroladores para poder utilizarlas nosotros.
-para usarly hay que instalarlo en nuestro sistema. para ello, vamos al siguiente enlace https://bootstrap.pypa.io/get-pip.py y nos descargamos dicho archivo, haciendo click derecho y Guardar como...
+Para poder usarlo hay que instalarlo en nuestro sistema. Para ello, vamos al siguiente enlace https://bootstrap.pypa.io/get-pip.py y nos descargamos dicho archivo, haciendo click derecho y Guardar como...
 
-### Descargar pip
+#### Descargar pip
 ![Descargar pip](imagenes/descargar_pip.PNG)
 
 Es importante guardarlo en un sitio al qeu tengamos facil acceso. Una vez descargado, para instalarlo, unicamente hay que ejecutarlo en la terminal como cualquier archivo python.
@@ -229,7 +229,7 @@ Para instalar NumPy, usa pip:
 pip install numpy
 ```
 
-### Para instalar Numpy:
+#### Para instalar Numpy:
 ![Instalar Numpy](imagenes/instalar_numpy.png)
 
 Una vez hecho esto ya podriamos utilizarlo.
