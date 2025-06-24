@@ -128,7 +128,7 @@ while energia > 0:
 
 ## ¿Qué es una lista por comprensión en Python?
 
-Una **lista por comprensión** es una forma breve de construir listas a partir de otras listas, usando una sola línea de código.
+Una **lista por comprensión** es una forma breve de construir listas a partir de otras listas, usando una sola línea de código. Pueden llevar una cpndición o no.
 
 ### Sintaxis:
 
@@ -136,7 +136,7 @@ Una **lista por comprensión** es una forma breve de construir listas a partir d
 nueva_lista = [expresión for elemento in colección if condición]
 ```
 
-### Ejemplo:
+### Ejemplo de una lista por comprensión sin condición:
 
 ```python
 cuadrados = [x * x for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
@@ -146,7 +146,7 @@ print(cuadrados)
 #### Ejemplo gráfico de lista por comprensión
 ![Lista por comprension](imagenes/lista_comprension.PNG)
 
-Con condición:
+### Ejemplo de una lista por comprensión con condición:
 
 ```python
 cuadrados = [x * x for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] if x <= 4]
